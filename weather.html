@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Environmental Monitoring Graph</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>City Environmental Monitoring</h1>
+
+  <input type="text" id="city-input" placeholder="Enter City (e.g., Pune)">
+  <button onclick="getCityCoordinates()">Get Data</button>
+
+  <div class="data-box">
+    <canvas id="envChart" width="800" height="400"></canvas>
+  </div>
+
+  <script src="weather.js"></script>
+</body>
+</html>
