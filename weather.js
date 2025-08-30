@@ -27,7 +27,7 @@ async function getCityCoordinates() {
 }
 
 async function fetchEnvironmentalData(lat, lon) {
-  const apiUrl = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&hourly=soil_temperature_0cm,soil_moisture_0_to_1cm,wind_speed_10m,uv_index&timezone=auto`;
+  const apiUrl = `enter your api key`;
 
   try {
     const response = await fetch(apiUrl);
@@ -116,6 +116,7 @@ function drawEnvChart(labels, temp, moist, wind, uv) {
     }
   });
 }
+
 
 
 
